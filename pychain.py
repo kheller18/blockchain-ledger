@@ -6,14 +6,12 @@ import datetime as datetime
 import pandas as pd
 import hashlib
 
-
 # Record class
 @dataclass
 class Record:
   sender: str
   receiver: str
   amount: float
-
 
 # Block class
 @dataclass
