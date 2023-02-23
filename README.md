@@ -27,13 +27,13 @@
 ## 1. Installation
 
   If you would like to clone the repository, type "git clone https://github.com/kheller18/blockchain-ledger".
-  In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the crime analysis application. To understand how to install these, refer to the [Usage](#2-usage)
+  In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the application. To understand how to install these, refer to the [Usage](#2-usage)
 
   * [csv](https://docs.python.org/3/library/csv.html) - Used to store all of our data
 
   * [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) - *version 3.4.4* - Used to create and share documents that contain live code, equations, visualizations and narrative text.
 
-  * [pandas](https://pandas.pydata.org/docs/) - For the analysis of crime data.
+  * [pandas](https://pandas.pydata.org/docs/) - For data analysis.
 
   * [pathlib](https://docs.python.org/3/library/pathlib.html) - *version 1.0.1* - This was used to locate through the directory or file path.
 
