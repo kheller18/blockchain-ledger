@@ -37,12 +37,6 @@
 
   * [pathlib](https://docs.python.org/3/library/pathlib.html) - *version 1.0.1* - This was used to locate through the directory or file path.
 
-  * [TensorFlow 2.0](https://www.tensorflow.org/) - An end-to-end machine learning platform
-
-  * [Keras](https://keras.io/about/) - Keras is a popular deep learning framework that serves as a high-level API for TensorFlow
-
-  * [Scikit-Learn](https://scikit-learn.org/stable/index.html) - Tools for data predictions and analysis
-
   * [NumPy](https://numpy.org/doc/stable/index.html) - Package for scientific computing
 
 ---
