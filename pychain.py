@@ -70,9 +70,6 @@ class Record:
 
 @dataclass
 class Block:
-
-    # @TODOze
-    # Rename the `data` attribute to `record`, and set the data type to `Record`
     record: Record
     creator_id: int
     prev_hash: str = "0"
@@ -174,16 +171,15 @@ pychain = setup()
 
 # @TODO:
 # Add an input area where you can get a value for `sender` from the user.
-# YOUR CODE HERE
-input_sender = st.text_input("sender")
+input_sender = st.text_input("Sender")
 
 # @TODO:
 # Add an input area where you can get a value for `receiver` from the user.
-input_receiver = st.text_input("receiver")
+input_receiver = st.text_input("Receiver")
 
 # @TODO:
 # Add an input area where you can get a value for `amount` from the user.
-input_amount = st.text_input("amount")
+input_amount = st.text_input("Amount")
 
 if st.button("Add Block"):
     prev_block = pychain.chain[-1]
