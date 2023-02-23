@@ -24,6 +24,7 @@ class Block:
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
     nonce: int = 0
 
+    # method in Block class to hash a block
     def hash_block(self):
         sha = hashlib.sha256()
 
@@ -51,6 +52,7 @@ class PyChain:
     chain: List[Block]
     difficulty: int = 4
 
+    # method in Pychain class for proof of work validation
     def proof_of_work(self, block):
         calculated_hash = block.hash_block()
         num_of_zeros = "0" * self.difficulty
@@ -62,10 +64,12 @@ class PyChain:
 
         return block
 
+    # method in Pychain class for adding a new block
     def add_block(self, candidate_block):
         block = self.proof_of_work(candidate_block)
         self.chain += [block]
 
+    # method in Pychain class for validating the blockchain
     def is_valid(self):
         block_hash = self.chain[0].hash_block()
 
@@ -92,7 +96,6 @@ st.markdown("## Store a Transaction Record in the PyChain")
 
 pychain = setup()
 
-
 # input box for sender
 input_sender = st.text_input("Sender")
 
@@ -107,6 +110,7 @@ if st.button("Add Block"):
     prev_block = pychain.chain[-1]
     prev_block_hash = prev_block.hash_block()
 
+    # calls on Block and Record classes to add new blocks
     new_block = Block(
         creator_id=42,
         prev_hash=prev_block_hash,
@@ -131,5 +135,6 @@ selected_block = st.sidebar.selectbox(
 
 st.sidebar.write(selected_block)
 
+# button to validate the blockchain
 if st.button("Validate Chain"):
     st.write(pychain.is_valid())
