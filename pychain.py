@@ -57,8 +57,6 @@ class Record:
   amount: float
 
 
-
-
 ################################################################################
 # Step 2:
 # Modify the Existing Block Data Class to Store Record Data
@@ -73,10 +71,9 @@ class Record:
 @dataclass
 class Block:
 
-    # @TODO
+    # @TODOze
     # Rename the `data` attribute to `record`, and set the data type to `Record`
-    data: Any
-
+    record: Record
     creator_id: int
     prev_hash: str = "0"
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
