@@ -49,7 +49,12 @@ import hashlib
 # @TODO
 # Create a Record Data Class that consists of the `sender`, `receiver`, and
 # `amount` attributes
-# YOUR CODE HERE
+
+@dataclass
+class Record:
+  sender: str
+  receiver: str
+  amount: float
 
 
 ################################################################################
@@ -66,10 +71,9 @@ import hashlib
 @dataclass
 class Block:
 
-    # @TODO
+    # @TODOze
     # Rename the `data` attribute to `record`, and set the data type to `Record`
-    data: Any
-
+    record: Record
     creator_id: int
     prev_hash: str = "0"
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
