@@ -35,12 +35,11 @@ At this time, that is the full scope of the application. Below is a GIF of the w
 
 ## 1. Installation
 
-  If you would like to clone the repository, type "git clone https://github.com/kheller18/blockchain-ledger".
-  In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the application. To understand how to install these, refer to the [Usage](#2-usage)
+  If you would like to clone the repository, type "git clone https://github.com/kheller18/blockchain-ledger". In the terminal, with the Anaconda dev environment activated, install the following packages and dependencies before running the application. To understand how to install these, refer to the [Usage](#2-usage)
 
-  * [Pandas](https://pandas.pydata.org/docs/) - * version 1.3.5 * - For data analysis and transformation.
+  * [Pandas](https://pandas.pydata.org/docs/) (1.3.5) - Data analysis
 
-  * [Streamlit](https://streamlit.io/) - * version 1.18.1 * - Used for building a the web app.
+  * [Streamlit](https://streamlit.io/) (1.18.1) - Web interface
 
 ---
 
@@ -97,7 +96,7 @@ At this time, that is the full scope of the application. Below is a GIF of the w
 ---
 
 ## 6. Deployment
-  + There is currently no live deployment of this notebook on a common server.
+  + There is currently no live deployment of this notebook on a common server. To be able to run this app locally, navigate to the root directory and type "streamlit run pychain.py". This should open the app automatically, but if it doesn't, go to localhost 8501 in your browser.
 
 ---
 
