@@ -29,15 +29,9 @@
   If you would like to clone the repository, type "git clone https://github.com/kheller18/blockchain-ledger".
   In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the application. To understand how to install these, refer to the [Usage](#2-usage)
 
-  * [csv](https://docs.python.org/3/library/csv.html) - Used to store all of our data
+  * [Pandas](https://pandas.pydata.org/docs/) - * version 1.3.5 * - For data analysis and transformation.
 
-  * [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) - *version 3.4.4* - Used to create and share documents that contain live code, equations, visualizations and narrative text.
-
-  * [pandas](https://pandas.pydata.org/docs/) - For data analysis.
-
-  * [pathlib](https://docs.python.org/3/library/pathlib.html) - *version 1.0.1* - This was used to locate through the directory or file path.
-
-  * [NumPy](https://numpy.org/doc/stable/index.html) - Package for scientific computing
+  * [Streamlit](https://streamlit.io/) - * version 1.18.1 * - Used for building a the web app.
 
 ---
 
@@ -47,10 +41,8 @@
 
       ```
       pip install pandas
-      pip install jupyterlab
-      pip install --upgrade tensorflow
-      pip install -U scikit-learn
-      pip install numpy
+      pip install streamlit
+
       ```
 
   After all of these are installed, please refer to the [Deployment](#6-deployment) section for instructions on how to view or edit the notebook.
