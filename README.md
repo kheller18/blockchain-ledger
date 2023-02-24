@@ -96,7 +96,7 @@ At this time, that is the full scope of the application. Below is a GIF of the w
 ---
 
 ## 6. Deployment
-  + There is currently no live deployment of this notebook on a common server. To be able to run this app locally, navigate to the root directory and type "streamlit run pychain.py". This should open the app automatically, but if it doesn't, go to [localhost 8501](http://localhost:8501/) in your browser.
+  + There is currently no live deployment of this app on a common server. To be able to run this app locally, navigate to the root directory and type "streamlit run pychain.py". This should open the app automatically, but if it doesn't, go to [localhost 8501](http://localhost:8501/) in your browser.
 
 ---
 
