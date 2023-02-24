@@ -6,7 +6,7 @@
 
 ## Description
 This project builds a simple blockchain. It uses streamlit to be able to have user interaction. When you first open the application it looks like this:
-![streamlit blank app](Images/initial_chain.png)
+![streamlit initial app](Images/initial_chain.png)
 
 Users are able to then input into the "Sender", "Receiver" and "Amount" fields. After all fields have values, a user clicks "Add Block". You will see the information show up on "The PyChain Ledger", which can be seen below:
 ![streamlit add block](Images/add_block.png)
@@ -15,7 +15,7 @@ After blocks have been added, we want to ensure that the blockchain that we have
 ![streamlit validate chain](Images/validate_chain.png)
 
 At this time, that is the full scope of the application. Below is a GIF of the whole application process and current capabilities.
-![streamlit app gif](Gifs/streamlit_blockchain.gif)
+![streamlit full app gif](Gifs/streamlit_blockchain.gif)
 
 ---
 
