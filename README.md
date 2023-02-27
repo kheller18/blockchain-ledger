@@ -35,7 +35,7 @@ At this time, that is the full scope of the application. Below is a GIF of the w
 
 ## 1. Installation
 
-  If you would like to clone the repository, type "git clone https://github.com/kheller18/blockchain-ledger". In the terminal, with the Anaconda dev environment activated, install the following packages and dependencies before running the application. To understand how to install these, refer to the [Usage](#2-usage)
+  If you would like to clone the repository, type "git clone https://github.com/kheller18/blockchain-ledger.git". In the terminal, with the Anaconda dev environment activated, install the following packages and dependencies before running the application. To understand how to install these, refer to the [Usage](#2-usage)
 
   * [Pandas](https://pandas.pydata.org/docs/) (1.3.5) - Data analysis
 
